@@ -1,6 +1,4 @@
-﻿// using ChallengeApp;
-
-namespace EmployeeManager
+﻿namespace EmployeeManager
 {
     public abstract class DataInFileBase : IDataInFile
     {

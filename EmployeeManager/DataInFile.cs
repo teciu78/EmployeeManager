@@ -1,12 +1,10 @@
-﻿//using EmployeeManager;
-
-namespace EmployeeManager
+﻿namespace EmployeeManager
 {
     public class DataInFile : DataInFileBase
     {
-        private const string fileName = "data.txt";
-        private const string fileBackupName = "data_backup.txt";
-        private const string fileGradesName = "grades.txt";
+        private const string fileName = @"Repository\data.txt";
+        private const string fileBackupName = @"Repository\data_backup.txt";
+        private const string fileGradesName = @"Repository\grades.txt";
 
         private Dictionary<int, int> oldNewId = new Dictionary<int, int>();
 
